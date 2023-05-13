@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header class="jumbotron">
         <div class="container">
-            <div class="row">
+            <div class="row row-header">
                 <div class="col-12 col-sm-6"> col-12 col-sm-6 </div>
                 <div class="col-12 col-sm"> col-12 col-sm </div>
             </div>
@@ -18,25 +19,33 @@
     </header>
     <section>
         <div class="container">
-            <div class="row">
+            <div class="row row-content align-items-center"> row-content </div>
+
+
+            <div class="row row-content align-items-center"> row-content </div>
+
+            <div class="row row-content align-items-center">
                 <div class="col-12 col-sm-4 col-md-3 order-sm-last"> col-12 col-sm-4 col-md-3 order-sm-last</div> 
                 <div class="col col-sm col-md order-sm-first"> col col-sm col-md order-sm-first</div>
             </div>
         </div>
     </section>
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-4 offset-1 col-sm-2"> col-4 col-sm-2 offset-1 </div>
-
-
+            <div class="row justify-content-center">
+                <div class="col-4 offset-1 col-sm-2"> 
+                    <!-- col-4 offset-1 col-sm-2 -->
+                    <ul class="list-unstyled"> list-unstyled </ul>
+                
+                </div>
                 <div class="col-7 col-sm-5"> col-7 col-sm-5 </div>
     
     
-                <div class="col-12 col-sm-4"> col-12 col-sm-4 </div>
+                <div class="col-12 col-sm-4 align-self-center"> col-12 col-sm-4 </div>
     
     
-                <div class="col-auto"> col-auto </div>
+                <div class="col-auto text-center"> col-auto </div>
+                <!-- <ul class="list-unstyled"> ... </ul> -->
             </div>
         </div>
     </footer>
